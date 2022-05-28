@@ -3,11 +3,12 @@
 let clues = [];
 let usedClues = [];
 
+
 // notes from dmg arrow func demo
 // want to use arrow functions for my event listeners 
 
 document.addEventListener("click", () => {
-    let inputAnswer = document.getElementById("input")
+    document.getElementsByClassName("startBtn")
 
     // build questions/jeporady clues array
 
