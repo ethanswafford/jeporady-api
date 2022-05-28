@@ -7,7 +7,7 @@ let usedClues = [];
 // want to use arrow functions for my event listeners 
 
 document.addEventListener("click", () => {
-    let input = document.getElementById("input")
+    let inputAnswer = document.getElementById("input")
 
     // build questions/jeporady clues array
 
